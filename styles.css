@@ -1,12 +1,12 @@
 :root {
-  --red: rgb(161, 0, 0);
+  --red: rgb(104, 0, 0);
 }
 
-/* BORDER GUIDE
+
 * {
   border: solid green 1px;
 }
-*/
+
 
 body {
   background-color: black;
@@ -23,38 +23,20 @@ body {
   box-sizing: border-box;
 }
 
-/* MEDIA QUERIES */
-@media screen and (max-width: 1000px) {
-.content {
-flex-wrap: wrap;
-}
-}
-
-@media screen and (max-width: 500px) {
-.buttons {
-flex-wrap: wrap;
-width: 20vw;
-}
-
-.sub-container {
-align-items: center;
-}
-}
-
-/* LAYOUT DIVS*/
+/* GENERAL LAYOUT DIVS*/
 .container {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 75vw;
+  width: 65vw;
 }
 
-.sub-container {
-margin-top: 25px;
-display: flex;
-flex-direction: column;
-justify-content: center;
-gap: 20px;
+/* PRODUCT PAGE LAYOUT */
+.header-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
 }
 
 .buttons {
@@ -67,11 +49,26 @@ display: flex;
 justify-content: center;
 }
 
-.content {
-display: flex;
-margin-top: 25px;
+.text {
+  flex-grow: 1;
+  width: 49%;
 }
 
+.image {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 49%;
+}
+
+.content {
+  display: flex;
+  margin-top: 25px;
+  gap: 40px;
+}
+
+/* BODY PAGE LAYOUT */
 .layer {
   display: flex;
   flex-direction: column;
@@ -96,11 +93,10 @@ color: white;
 text-align: center;
 }
 
-
-
 p {
-font-size: 20px;
-margin-bottom: -5px; 
+  font-size: 17px;
+  margin-bottom: -5px; 
+  line-height: 27px;
 }
 
 .container a {
@@ -143,8 +139,7 @@ button:hover {
 
 /* IMAGE STYLES */
 img {
-  width: 500px;
-  margin: 25px auto;
+  margin: 0 40px 25px;
 }
 
 .image-body {
@@ -161,3 +156,28 @@ img {
   justify-self: center;
 }
 
+/* MEDIA QUERIES */
+@media screen and (max-width: 1000px) {
+  .content {
+    flex-wrap: wrap;
+  }
+
+  .container {
+    width: 75vw;
+  }
+
+  img {
+    margin: 0 autp;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .buttons {
+    flex-wrap: wrap;
+    width: 20vw;
+  }
+
+  .sub-container {
+    align-items: center;
+  }
+}
