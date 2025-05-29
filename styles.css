@@ -159,6 +159,10 @@ img {
 /* MEDIA QUERIES */
 @media screen and (max-width: 1000px) {
   .content {
+    justify-content: center;
+  }
+  
+  .content {
     flex-wrap: wrap;
   }
 
@@ -167,7 +171,7 @@ img {
   }
 
   img {
-    margin: 0 autp;
+    margin: 0 auto;
   }
 }
 
