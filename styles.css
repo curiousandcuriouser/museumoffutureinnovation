@@ -1,0 +1,123 @@
+:root {
+--red: rgb(104, 0, 0);
+}
+
+body {
+background-color: black;
+font-family: 'IBM Plex Sans', sans-serif;
+font-optical-sizing: auto;
+font-weight: 450;
+font-style: normal;
+font-variation-settings:
+"wdth" 100;
+display: flex;
+justify-content: center;
+align-items: center;
+color: white;
+box-sizing: border-box;
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 1000px) {
+.content {
+flex-wrap: wrap;
+}
+}
+
+@media screen and (max-width: 500px) {
+.buttons {
+flex-wrap: wrap;
+width: 20vw;
+}
+
+.sub-container {
+align-items: center;
+}
+}
+
+/* LAYOUT DIVS*/
+
+.container {
+display: flex;
+flex-direction: column;
+justify-content: center;
+width: 50vw
+}
+
+.sub-container {
+margin-top: 25px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+gap: 20px;
+width: 60vw;
+}
+
+.buttons {
+display: flex;
+justify-content: space-between;
+}
+
+.button {
+display: flex;
+justify-content: center;
+}
+
+.content {
+display: flex;
+margin-top: 25px;
+}
+
+h1 {
+color: white;
+text-align: center;
+}
+
+button {
+font-family: 'IBM Plex Sans', sans-serif;
+font-size: 16px;
+background-color: white;
+padding: 12px;
+border: none;
+cursor: pointer;
+margin: 5px;
+border: solid 2px transparent;
+}
+
+button:hover {
+background-color: var(--red);
+color: white;
+border: solid 2px white;
+}
+
+p {
+font-size: 20px;
+margin-bottom: -5px; 
+}
+
+.container a {
+margin: 0 auto;
+}
+
+a, a:hover, a:focus, a:visited {
+text-decoration: none;
+color: white;
+}
+
+img {
+height: 500px;
+}
+
+.arrow {
+width: 50px;
+height: 50px;
+justify-self: center;
+}
+
+.return-arrow {
+width: 50px;
+height: 50px;
+justify-self: center;
+}
+
