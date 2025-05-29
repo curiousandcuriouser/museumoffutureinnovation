@@ -67,6 +67,17 @@ display: flex;
 margin-top: 25px;
 }
 
+.layer {
+  display: flex;
+  align-items: center;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 2;
+}
+
 /* CONTENT MOD */
 
 h1 {
@@ -107,6 +118,10 @@ color: white;
 
 img {
   width: 500px;
+}
+
+.image-body {
+  width: 50px;
 }
 
 .subpage {
