@@ -2,9 +2,11 @@
   --red: rgb(161, 0, 0);
 }
 
+/* BORDER GUIDE
 * {
   border: solid green 1px;
 }
+*/
 
 body {
   background-color: black;
@@ -41,10 +43,10 @@ align-items: center;
 
 /* LAYOUT DIVS*/
 .container {
-display: flex;
-flex-direction: column;
-justify-content: center;
-width: 75vw
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 75vw;
 }
 
 .sub-container {
@@ -72,9 +74,14 @@ margin-top: 25px;
 
 .layer {
   display: flex;
-  align-items: baseline;
-  height: 100vh;
-  margin: 100px 0;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 500px ;
+}
+
+.layer-layout {
+  display: flex;
+  align-items: center;
 }
 
 .links {
