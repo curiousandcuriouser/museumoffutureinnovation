@@ -1,20 +1,24 @@
 :root {
---red: rgb(161, 0, 0);
+  --red: rgb(161, 0, 0);
+}
+
+* {
+  border: solid green 1px;
 }
 
 body {
-background-color: black;
-font-family: 'IBM Plex Sans', sans-serif;
-font-optical-sizing: auto;
-font-weight: 450;
-font-style: normal;
-font-variation-settings:
-  "wdth" 100;
-display: flex;
-justify-content: center;
-align-items: center;
-color: white;
-box-sizing: border-box;
+  background-color: black;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 450;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  box-sizing: border-box;
 }
 
 /* MEDIA QUERIES */
@@ -68,7 +72,9 @@ margin-top: 25px;
 
 .layer {
   display: flex;
-  align-items: center;
+  align-items: baseline;
+  height: 100vh;
+  margin: 100px 0;
 }
 
 .links {
@@ -135,7 +141,7 @@ img {
 }
 
 .image-body {
-  width: 50px;
+  width: 40px;
 }
 
 .subpage {
