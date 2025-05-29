@@ -100,7 +100,7 @@ a, a:hover, a:focus, a:visited {
   color: white;
 }
 
-.reference-link {
+a.reference-link {
   color: var(--red);
 }
 
