@@ -113,6 +113,7 @@ p.beginning{
   font-size: 30px;
   margin: 10px 0 30px; 
   line-height: 40px;
+  text-align: center;
 }
 
 .container a {
