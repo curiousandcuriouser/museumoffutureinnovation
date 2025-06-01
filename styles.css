@@ -158,7 +158,7 @@ button:hover {
   border: solid 2px white;
 }
 
-/* IMAGE STYLES */
+/* BODY IMAGE STYLES */
 img {
   margin: 0 40px 25px;
 }
@@ -180,6 +180,7 @@ img {
 .pug {
   position: absolute;
   top: 200px;
+  left: 460px;
   z-index: 5;
 }
 
@@ -218,6 +219,48 @@ img {
   position: absolute;
   top: 600px;
   left: 250px;
+}
+
+.head {
+  position: absolute;
+  top: 1050px;
+  left: 460px;
+  z-index: 5;
+}
+
+.chest {
+  position: absolute;
+  top: 1130px;
+  left: 340px;
+  z-index: 4;
+}
+
+.stomach {
+  position: absolute;
+  top: 1220px;
+  left: 410px;
+  z-index: 3;
+}
+
+.lower_legs {
+  position: absolute;
+  top: 1350px;
+  left: 417px;
+  z-index: 2;
+}
+
+.fat-left {
+  position: absolute;
+  top: 1330px;
+  left: 380px;
+  z-index: 3;
+}
+
+.fat-right {
+  position: absolute;
+  top: 1340px;
+  left: 570px;
+  z-index: 3;
 }
 
 /* MEDIA QUERIES */
