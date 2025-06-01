@@ -105,6 +105,12 @@ p {
   line-height: 27px;
 }
 
+p.beginning{
+  font-size: 30px;
+  margin: 300px 0 -5px; 
+  line-height: 40px;
+}
+
 .container a {
 margin: 0 auto;
 }
