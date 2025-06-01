@@ -120,7 +120,7 @@ p.beginning{
 margin: 0 auto;
 }
 
-.container a img {
+.container .next {
   height: 60px;
 }
 
