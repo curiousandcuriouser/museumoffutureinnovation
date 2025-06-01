@@ -30,7 +30,11 @@ body {
   flex-direction: column;
   justify-content: center;
   width: 65vw;
-  gap: 100px;
+  gap: 20px;
+}
+
+.cover {
+  margin-top: 250px;
 }
 
 /* PRODUCT PAGE LAYOUT */
