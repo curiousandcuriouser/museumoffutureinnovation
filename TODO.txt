@@ -1,0 +1,9 @@
+TODO:
+[] Finish beginning and end pages
+[] Create image map for layers
+[] Finish body subpages
+[] Add appearing text to beginning (scroll to delay?)
+[] Make body scrollable
+[] Make subpages more engaging
+[] Add background sounds
+[] Figure out how to make message more impactful
