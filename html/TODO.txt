@@ -1,0 +1,8 @@
+TODO:
+[] Finish beginning and end pages
+[] Finish body subpages
+[] Add appearing text to beginning
+[] Make body scrollable
+[] Make subpage more engaging
+[] Add background sounds
+[]Figure out how to make message more impactful
