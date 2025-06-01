@@ -105,14 +105,22 @@ p {
   line-height: 27px;
 }
 
+p.first.beginning {
+  margin-top: 250px;
+}
+
 p.beginning{
   font-size: 30px;
-  margin: 300px 0 -5px; 
+  margin: 10px 0 30px; 
   line-height: 40px;
 }
 
 .container a {
 margin: 0 auto;
+}
+
+.container a img {
+  height: 60px;
 }
 
 /* LINK STYLES */
