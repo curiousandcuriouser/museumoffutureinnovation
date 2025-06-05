@@ -77,7 +77,11 @@ justify-content: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-bottom: 500px ;
+  margin: 20px 0;
+}
+
+.separator {
+  height: 500px;
 }
 
 .layer-layout {
