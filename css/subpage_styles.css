@@ -1,0 +1,43 @@
+/* PRODUCT PAGE LAYOUT */
+.header-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+}
+
+.buttons {
+display: flex;
+justify-content: space-between;
+}
+
+.button {
+display: flex;
+justify-content: center;
+}
+
+.text {
+  flex-grow: 1;
+  width: 49%;
+}
+
+.image {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 49%;
+}
+
+.content {
+  display: flex;
+  margin-top: 25px;
+  gap: 40px;
+}
+
+
+.current-page button {
+  background-color: var(--red);
+  color: white;
+  border: solid 2px white;
+}

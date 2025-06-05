@@ -1,0 +1,31 @@
+/* BODY PAGE LAYOUT */
+.layer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.separator {
+  height: 500px;
+}
+
+.layer-layout {
+  display: flex;
+  align-items: center;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 2;
+}
+
+/* BODY IMAGE STYLES */
+.arrow {
+  width: 40px;
+}
+
+.image_layer {
+  height: 600px;
+}

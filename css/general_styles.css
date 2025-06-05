@@ -35,65 +35,6 @@ body {
   margin-top: 250px;
 }
 
-/* PRODUCT PAGE LAYOUT */
-.header-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  gap: 10px;
-}
-
-.buttons {
-display: flex;
-justify-content: space-between;
-}
-
-.button {
-display: flex;
-justify-content: center;
-}
-
-.text {
-  flex-grow: 1;
-  width: 49%;
-}
-
-.image {
-  flex-grow: 1;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  max-width: 49%;
-}
-
-.content {
-  display: flex;
-  margin-top: 25px;
-  gap: 40px;
-}
-
-/* BODY PAGE LAYOUT */
-.layer {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  margin: 20px 0;
-}
-
-.separator {
-  height: 500px;
-}
-
-.layer-layout {
-  display: flex;
-  align-items: center;
-}
-
-.links {
-  display: flex;
-  flex-direction: column;
-  flex-grow: 2;
-}
 
 /* CONTENT MOD */
 h1 {
@@ -154,30 +95,6 @@ button:hover {
   border: solid 2px white;
 }
 
-.current-page button {
-  background-color: var(--red);
-  color: white;
-  border: solid 2px white;
-}
-
-/* BODY IMAGE STYLES */
-.image-body {
-  width: 40px;
-}
-
-.subpage {
-  margin: 25px auto;
-}
-
-.image_layer {
-  height: 600px;
-}
-
-.arrow {
-  width: 50px;
-  height: 50px;
-  justify-self: center;
-}
 
 /* MEDIA QUERIES */
 @media screen and (max-width: 1000px) {
